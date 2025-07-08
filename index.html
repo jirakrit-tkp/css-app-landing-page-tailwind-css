@@ -7,7 +7,45 @@
     <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
     <!-- Start Coding Here -->
-  </body>
+    <body class="bg-[#f6f6fd] min-h-screen">
+      <!-- Navbar -->
+      <nav class="flex justify-between items-center bg-white bg-opacity-80 rounded-full shadow px-8 py-4 mt-4 mx-4 max-w-6xl mx-auto">
+        <div class="relative inline-block">
+          <span class="text-2xl font-bold text-gray-900">Acme</span>
+          <span class="absolute -top-1 text-indigo-500 text-xl font-bold">•</span>
+        </div>
+        <ul class="flex space-x-8 text-base font-medium">
+          <li>
+            <a href="#" class="text-gray-700 hover:text-indigo-600 hover:underline">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-indigo-600 hover:underline">Features</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-indigo-600 hover:underline">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-indigo-600 hover:underline">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    
+      <!-- Hero Section -->
+      <section class="flex flex-col items-center justify-center text-center mt-24">
+        <div class="bg-blue-200 bg-opacity-60 rounded-full px-5 py-2 mb-6 flex items-center shadow-sm">
+          <span class="text-yellow-500">🌈</span>
+          <span class="text-sm text-indigo-600 font-medium">Acme Productivity App</span>
+        </div>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mb-4">
+          Boost Your <span class="text-indigo-600">Productivity</span>
+        </h1>
+        <p class="text-lg text-gray-700 mb-8 font-medium">
+          Streamline your workflow with our all-in-one productivity app.
+        </p>
+        <button class="bg-gray-900 text-white px-8 py-3 rounded-xl font-semibold shadow hover:bg-gray-800 transition">
+          Start Free Trial
+        </button>
+      </section>
+    </body>
 </html>
